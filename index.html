@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+
+}
+
+.outerbox {
+    width: 100vw;
+    height: 100vw;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+
+.innerbox {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: rgb(244, 239, 239);
+    
+    /* backdrop-filter:blur(8px); */
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #1aa1fa;
+}
+
+.signup-header h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.signup-header p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.signup-body {
+    margin: 20px 0;
+
+}
+
+.signup-body {
+    margin: 10px 0;
+}
+
+.signup-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+#Submit {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+#Submit:hover {
+    background-color: #184f74;
+}
+
+footer {
+    color: #555;
+    text-align: center;
+}
+
+footer a {
+    color: #3498db;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="outerbox">
+        <div class="innerbox">
+<header class="signup-header">
+    <h1>
+        Sign Up 
+    </h1>
+    <p>It just takes 30 seconds</p>
+    <main class="signup-body">
+        <form action="">
+            <p>
+                <label for="Full Name ">Full Name</label>
+                <input type="text" id="Full Name" placeholder="Mohammad Saif">
+            </p>
+            <p>
+                <label for="email  ">Your email</label>
+                <input type="text" id="email" placeholder="saif123@gmail.com">
+            </p>
+            <p>
+                <label for="Password ">Your New Password</label>
+                <input type="password" id="Full Name" placeholder="at least 8 characters">
+            </p>
+            <p>
+                
+                <input type="Submit" id="Submit" value="Creat Account">
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>
+            Already have an Account <a href="#">Login</a> </p>
+    </footer>
+
+</header>
+
+        </div>
+       
+    </div>
+    
+</body>
+</html>
